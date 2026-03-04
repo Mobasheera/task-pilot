@@ -1,73 +1,112 @@
-# Welcome to your Lovable project
+# 🚀 TaskPilot
 
-## Project info
+### Smart Task Allocation for Modern Devs
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+TaskPilot is an intelligent task allocation platform designed for modern development teams. It analyzes team members' skills and project requirements to assign tasks to the most suitable developers, ensuring balanced workloads and faster project execution.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Overview
 
-**Use Lovable**
+In many team-based projects, tasks are assigned without fully understanding each member's strengths and technical skills. This often leads to:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- Skill mismatches
+- Uneven workload distribution
+- Slower development cycles
+- Missed learning opportunities
 
-Changes made via Lovable will be committed automatically to this repo.
+**TaskPilot solves this problem** by intelligently matching tasks with developers based on their skill compatibility and workload balance.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Smart Task Allocation**  
+  Automatically assigns tasks based on developer skills and compatibility.
 
-Follow these steps:
+- **Skill-Based Matching**  
+  Matches project requirements with team member capabilities.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Balanced Workload Distribution**  
+  Prevents overloading certain team members while others remain underutilized.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Gamified Developer Growth**  
+  Tracks XP, levels, and progress to encourage continuous improvement.
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **AI Assignment Reasoning**  
+  Provides confidence scores and explanations behind each assignment.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🖥️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Frontend
+- **React.js** – Interactive user interface
+- **Tailwind CSS** – Modern responsive design
 
-**Use GitHub Codespaces**
+### Backend
+- **Node.js** – Server-side runtime
+- **Express.js** – REST API development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Database
+- **MongoDB** – Stores team skills, tasks, and assignment data
 
-## What technologies are used for this project?
+### Core Engine
+- **Intelligent Assignment Engine** – Skill-based task matching algorithm
 
-This project is built with:
+### Tools
+- **Git & GitHub** – Version control and collaboration
+- **Vercel** – Deployment and hosting
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🏗️ System Architecture
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+TaskPilot follows a simple layered architecture. The assignment engine analyzes developer skill scores and task requirements to determine the best-fit member for each task.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⚡ How It Works
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Team members and their skills are registered in the system.
+2. Tasks are added with their required skills and difficulty level.
+3. The **Intelligent Assignment Engine** evaluates compatibility scores.
+4. Tasks are automatically assigned to the best-suited developer.
+5. The system updates workload distribution and developer progress.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 🎯 Business Value
+
+- Optimized task allocation
+- Faster project execution
+- Balanced team workload
+- Continuous developer growth
+
+---
+
+## 🔮 Future Scope
+
+- GitHub profile skill analysis
+- Resume-based skill extraction
+- Integration with development tools (GitHub, Jira, Slack)
+- Advanced AI-driven skill prediction
+- Enterprise-level team management dashboards
+
+---
+
+## 📌 Hackathon Project
+
+TaskPilot was developed as part of a hackathon project to demonstrate how intelligent systems can improve collaboration and productivity in modern development teams.
+
+---
+
+## 🌐 Live Demo
+
+https://taskpilot-genone.vercel.app/
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving the repository a **star ⭐**.
